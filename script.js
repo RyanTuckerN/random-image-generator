@@ -17,7 +17,7 @@ fetch(modUrl, {method:'GET'})
     photoContainer.appendChild(photo)
 
   })
-  .catch(()=> console.error('YOU FUCKED UP!'))
+  .catch(()=> console.error('ERROR!'))
 
 
  
