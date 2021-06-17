@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get A Random Beautiful Photo!</title>
+  </head>
+  <body
+    style="
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      font-family: monospace;
+      background: rgb(131, 58, 180);
+      background: linear-gradient(
+        90deg,
+        rgba(131, 58, 180, .5) 0%,
+        rgba(253, 29, 29, 0.1) 50%,
+        rgba(252, 176, 69, .5) 100%
+      );
+      height: 100%;
+      margin: 0;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    "
+  >
+    <h1>Get A Random Beautiful Photo!</h1>
+    <!-- forms refresh page by default -->
+    <form><button style="font-family: monospace">Get A Photo</button></form>
+    <br />
+    <section
+      id="container"
+      style="display: flex; justify-content: center"
+    ></section>
+    <br>
+    <span>Photos from <a href="https://unsplash.com/" target="_blank">Unsplash</a></span>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
